@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #D7F5DC;
+    
+}
+
+header {
+    display: flex;
+    height: 91.7px;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+.container-menu {
+    display: flex;
+    align-self: center;
+    margin-top: 1.25em;
+    margin-left: 100px;
+    
+}
+
+.logo {
+    font-size: 20px;
+}
+
+#orange {
+    color: orange;
+}
+
+.items-menu {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 800px;
+     
+}
+
+.items-menu a{
+    padding-right: 34px;
+    color: black;
+     
+}
+
+.items-menu button{
+    cursor: pointer;
+     
+}
+
+#login{
+    color: black;
+    background-color: transparent;
+    border: 1px solid #20B15A;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+#register{
+    color: white;
+    background-color: #20B15A;
+    border: 1px solid #20B15A;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+/*FIM DO MENU*/
+
+.container-main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.main-text p{
+   font-size: 50px;
+   font-weight: bolder;
+   
+}
+
+.main-text legend{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 10px;
+ }
+
+ 
+.main-text button{
+    background-color: #20B15A;
+    border: 1px solid #20B15A;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 20px;
+
+ }
+
+ .main-text button{
+    color: white;
+    font-weight: bolder;
+ }
+
+.main-img {
+    margin-left: 150px;
+}
+
+.empresas{
+    background-color: white;
+    height: 150px;
+    margin-top: -3px;
+}
+
+.empresas img{
+    height: 100%;
+    padding-left: 120px;
+}
